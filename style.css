@@ -3,16 +3,18 @@
    margin:0;
    padding:0;
 }
-
-.cabeçalho{
-   background-color:#8E2270 ;
+.cabecalho { 
+   background-color: #a52a82;
+   color: #a52a82;
    display: flex;
-   padding: 10px 0;
-  
+   justify-content: space-around;
+   align-items: center;
+   padding: 24px 0;
+
 }
+
 .cabeçalho-imagem{
 width: 5%;
-font-size: 24px;
 }
 
 .cabaçalho-lista-item{
