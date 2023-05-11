@@ -1,23 +1,9 @@
-*{
-
-   margin:0;
-   padding:0;
-}
-.cabecalho { 
-   background-color: #a52a82;
-   color: #a52a82;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 24px 0;
-
-}
-
-.cabeçalho-imagem{
-width: 5%;
-}
-
-.cabaçalho-lista-item{
-   display:inline-block;
-   margin:0 20px;
-} 
+:root {
+   --cor-de-fundo: #EBECEE;
+   }
+   body {
+      background-color: var(--cor-de-fundo);
+      }
+      h1 {
+         background-color: white;
+         }
